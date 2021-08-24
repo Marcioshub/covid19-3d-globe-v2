@@ -23,12 +23,16 @@ function App() {
         name = "S. Korea";
         break;
 
+      case "United Kingdom":
+        name = "UK";
+        break;
+
       default:
         break;
     }
 
     for (let i = 0; i < data.length; i++) {
-      console.log(data[i].name, "?=", name);
+      // console.log(data[i].name, "?=", name);
 
       if (data[i].name.trim() === name) {
         return `
